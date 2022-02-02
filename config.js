@@ -11,22 +11,22 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'Quartix',
   imageBackground: false,
   openInNewTab: true,
-  twelveHourFormat: false,
+  twelveHourFormat: true,
 
   // Greetings
-  greetingMorning: 'Good morning!',
+  greetingMorning: 'Good morning,',
   greetingAfternoon: 'Good afternoon,',
   greetingEvening: 'Good evening,',
-  greetingNight: 'Go to Sleep!',
+  greetingNight: 'Go to Sleep,',
 
   // Weather
   weatherKey: 'InsertYourAPIKeyHere123456',
   weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
   weatherUnit: 'C', // 'F', 'C'
-  language: 'en', // More languages in https://openweathermap.org/current#multi
+  language: 'ru', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
   defaultLatitude: '37.775',
@@ -59,19 +59,19 @@ const CONFIG = {
       id: '2',
       name: 'Mail',
       icon: 'mail',
-      link: 'https://mail.protonmail.com/',
+      link: 'https://gmail.com/',
     },
     {
       id: '3',
-      name: 'Todoist',
-      icon: 'trello',
-      link: 'https://todoist.com',
+      name: 'Youtube',
+      icon: 'youtube',
+      link: 'https://youtube.com',
     },
     {
       id: '4',
-      name: 'Calendar',
-      icon: 'calendar',
-      link: 'https://calendar.google.com/calendar/r',
+      name: 'iCloud',
+      icon: 'save',
+      link: 'https://icloud.com',
     },
     {
       id: '5',
@@ -81,9 +81,9 @@ const CONFIG = {
     },
     {
       id: '6',
-      name: 'Odysee',
-      icon: 'youtube',
-      link: 'https://odysee.com/',
+      name: 'Music',
+      icon: 'music',
+      link: 'https://music.apple.com/ru/browse',
     },
   ],
 
@@ -92,33 +92,33 @@ const CONFIG = {
   // ┴─┘┴└─┘ ┴ └─┘
 
   //Icons
-  firstListIcon: 'music',
+  firstListIcon: 'file-plus',
   secondListIcon: 'coffee',
 
   // Links
   lists: {
     firstList: [
       {
-        name: 'Inspirational',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Linear Algebra',
+        link: 'https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab',
       },
       {
-        name: 'Classic',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Forge Learn',
+        link: 'https://www.youtube.com/channel/UCbzPhyLcO8VP25dZ7kaUyAw',
       },
       {
-        name: 'Oldies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Yandex.Practicum',
+        link: 'https://practicum.yandex.ru/',
       },
       {
-        name: 'Rock',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Roblox API',
+        link: 'https://developer.roblox.com/en-us/api-reference',
       },
     ],
     secondList: [
       {
-        name: 'Linkedin',
-        link: 'https://linkedin.com/',
+        name: 'VK',
+        link: 'https://vk.com/',
       },
       {
         name: 'Figma',
@@ -129,9 +129,10 @@ const CONFIG = {
         link: 'https://dribbble.com',
       },
       {
-        name: 'Telegram',
-        link: 'https://webk.telegram.org',
+        name: 'ProtonMail',
+        link: 'https://protonmail.com',
       },
     ],
   },
 };
+
